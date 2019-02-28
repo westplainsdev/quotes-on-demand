@@ -1,9 +1,9 @@
 # Vue User Interface
 
-This application does not need to use the CLI, Webpack or any other build system to be runable. 
+This application does not need to use the VueCLI, Webpack or any other build system to be runable. 
 
 All dependecies are brought in via CDN links so an internet connection is a must when the index page 
-is servered to the browser.  
+is served to the browser.  
 
 Simply place this folder in a location where a web server will be able to find the `index.html` file.
 

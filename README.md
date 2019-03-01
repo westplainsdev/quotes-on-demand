@@ -2,6 +2,8 @@
 
 A fully featuerd application consuming and saving data to and from a third party API server.
 
+![alt text](example.PNG "Vue / API Demo")
+
 ## The Why
 
 This application was created with a couple goals in mind. 

@@ -7,7 +7,7 @@ var home = Vue.component("Home", {
         </select>
     </p>
     <hr />
-    <div v-for="(quote, index) in quotes" :key="index" v-if="mulitiple">
+    <div v-for="(quote, index) in quotes" :key="index" v-if="multiple">
         <blockquote class="blockquote">
             <p class="mb-0 col-11 .col-md-7">{{ quote.text }}</p>
             <footer class="blockquote-footer">{{quote.author}}
@@ -22,7 +22,7 @@ var home = Vue.component("Home", {
         <hr />
     </div>
 
-    <div v-if="!mulitiple">
+    <div v-if="!multiple">
         <blockquote class="blockquote">
             <p class="mb-0 col-11 .col-md-7">{{ quote.text }}</p>
             <footer class="blockquote-footer">{{quote.author}}
@@ -41,7 +41,7 @@ var home = Vue.component("Home", {
       message: 'View our quotes',
       quotes: [],
       quote: {},
-      mulitiple: false,
+      multiple: false,
       selectList: [],
       error: '',
     };
@@ -71,14 +71,14 @@ var home = Vue.component("Home", {
           return (this.quotes, this.selectList);
         });
 
-      this.mulitiple = true;
+      this.multiple = true;
     },
 
     getSingleQuote(id) {
       axios
         .get(baseUrl + '/quote/' + id)
         .then(response => (this.quote = response.data));
-      this.mulitiple = false;
+      this.multiple = false;
     },
 
     removeSingleQuote(id) {

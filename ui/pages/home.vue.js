@@ -88,7 +88,7 @@ var home = Vue.component("Home", {
         })
         .catch((error) => {
           this.$log.debug(error);
-          this.error = "Failed to remove todo"
+          this.error = "Failed to remove quote"
         });
 
     },

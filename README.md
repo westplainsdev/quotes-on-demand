@@ -1,6 +1,6 @@
 # quotes on demand
 
-A fully featuerd application consuming and saving data to and from a third party API server.
+A fully featuerd VueJS application consuming and saving data to and from a third party API server.
 
 ![alt text](example.PNG "Vue / API Demo")
 

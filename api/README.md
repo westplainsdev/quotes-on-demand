@@ -8,11 +8,11 @@ The quotes api itself does support proper HTTP verb endpoints. You should be abl
 
 ## API
 
-     /api/quote           | GET    | returns all quotes
-     /api/quote/{id}      | GET    | returns a specific quote by 'id'
-     /api/quote           | POST   | add a new quote
-     /api/quote/{id}      | PUT    | update an quote
-     /api/quote/{id}      | DELETE | deletes an quote
+     /quote           | GET    | returns all quotes
+     /quote/{id}      | GET    | returns a specific quote by 'id'
+     /quote           | POST   | add a new quote
+     /quote/{id}      | PUT    | update an quote
+     /quote/{id}      | DELETE | deletes an quote
 
 ## Instructions
 

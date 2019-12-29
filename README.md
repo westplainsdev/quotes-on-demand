@@ -1,4 +1,4 @@
-# quotes on demand
+# quotes on demand with NodeJS
 
 A fully featuerd VueJS application consuming and saving data to and from a third party API server.
 

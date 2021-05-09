@@ -42,5 +42,10 @@
         "id": 9,
         "author": "Marilyn Monroe",
         "text": "“I’m selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can’t handle me at my worst, then you sure as hell don’t deserve me at my best.”"
+    },
+    {
+         "id": 10,
+         "author":"Ingrid Bergman",
+         "text": "A kiss is a lovely trick designed by nature to stop speech when words become superfluous."
     }
 ]
